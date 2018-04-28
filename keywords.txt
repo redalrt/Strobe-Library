@@ -1,0 +1,2 @@
+flash	KEYWORD1
+strobe	KEYWORD2

@@ -14,9 +14,9 @@ flash :: flash(int pin)
 void flash :: strobe()
 	{
 	for(int i=0; i<3; i++){
-    		digitalWrite(pin, HIGH);
+    		digitalWrite(_pin, HIGH);
     		delay(50);
-    		digitalWrite(pin, LOW);
+    		digitalWrite(_pin, LOW);
     		delay(50);
 		}
 	}
